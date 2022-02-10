@@ -1,5 +1,4 @@
 /*----things----*/
-
 :root {
   --accent-color: #2196f3;
   --btn-color: #188CE8;
@@ -99,7 +98,6 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-
   color: var(--color2);
   margin-bottom: 50px;
 }
@@ -120,12 +118,11 @@ img {
 .header .main-logo {
   margin-right: 93px;
 }
+
 .main-logo {
   font-family: Raleway;
-
   font-size: 26px;
   line-height: 1.19;
-
   color: var(--accent-color);
 }
 
@@ -136,8 +133,8 @@ img {
 .studio-black {
   color: var(--color2);
 }
-/*---------header---------*/
 
+/*---------header---------*/
 .header-container {
   display: flex;
   align-items: center;
@@ -169,12 +166,10 @@ img {
 
 .header-link {
   align-items: center;
-
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
   font-weight: 500;
-
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--transition);
@@ -207,7 +202,6 @@ img {
 }
 
 /*---------portfolio---------*/
-
 .header {
   border-bottom: 1px solid var(--color10);
 }
@@ -246,7 +240,6 @@ img {
 .filter-btn {
   border: none;
   padding: 6px 22px;
-
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -256,8 +249,7 @@ img {
   border-radius: 4px;
   color: var(--color2);
   background-color: var(--color3);
-  transition: color var(--transition), background-color var(--transition),
-    box-shadow var(--transition);
+  transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
 
 .list-filter-item:not(:last-child) {
@@ -286,8 +278,7 @@ img {
 
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 0px 1px 1px var(--color11), 0px 4px 4px var(--color14),
-    1px 4px 6px var(--color15);
+  box-shadow: 0px 1px 1px var(--color11), 0px 4px 4px var(--color14), 1px 4px 6px var(--color15);
 }
 
 .filter-btn:hover,
@@ -295,8 +286,7 @@ img {
 .present-btn {
   background-color: var(--accent-color);
   color: var(--color1);
-  box-shadow: 0px 3px 1px var(--color12), 0px 1px 2px var(--color13),
-    0px 2px 2px var(--color11);
+  box-shadow: 0px 3px 1px var(--color12), 0px 1px 2px var(--color13), 0px 2px 2px var(--color11);
 }
 
 .the-hero-title {
@@ -304,7 +294,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--color2);
 }
 
@@ -316,11 +305,7 @@ img {
 
 /*---------mainpage---------*/
 .hero-section {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../imgs/backgroundimage.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imgs/backgroundimage.jpg);
   background-color: var(--color5);
   background-position: center;
   background-repeat: no-repeat;
@@ -340,7 +325,6 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--color1);
 }
 
@@ -399,7 +383,6 @@ img {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-
   color: var(--color2);
 }
 
@@ -419,9 +402,7 @@ img {
 .team-item {
   flex-basis: calc(100% / 4 - 30px);
   background-color: var(--color1);
-
-  box-shadow: 0px 1px 3px var(--color11), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px var(--color18);
+  box-shadow: 0px 1px 3px var(--color11), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px var(--color18);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -508,7 +489,6 @@ li.clients-item {
 }
 
 /*---------footer---------*/
-
 .footer {
   background-color: var(--color5);
   padding-top: 60px;
@@ -529,7 +509,6 @@ li.clients-item {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-
   color: var(--accent-color);
 }
 
@@ -541,11 +520,9 @@ li.clients-item {
 .joinus {
   margin-bottom: 20px;
   display: flex;
-
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-
   color: var(--color1);
 }
 
@@ -616,7 +593,6 @@ li.clients-item {
   height: 50px;
   border: none;
   background-color: transparent;
-
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -711,7 +687,6 @@ li.clients-item {
 }
 
 .modal-title {
-  
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -723,7 +698,6 @@ li.clients-item {
   margin-bottom: 10px;
 }
 
-
 .form-fieldcom {
   margin-bottom: 20px;
 }
@@ -734,7 +708,6 @@ li.clients-item {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-
   padding-left: 42px;
   transition: border-color var(--transition);
   /* outline: none; */
@@ -743,12 +716,9 @@ li.clients-item {
 .input-text {
   display: block;
   margin-bottom: 4px;
-
-  
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-
   color: var(--color7);
 }
 
@@ -764,11 +734,10 @@ li.clients-item {
 }
 
 .form-text::placeholder {
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-
-color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .input-wrap {
@@ -811,7 +780,6 @@ color: rgba(117, 117, 117, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-
   color: var(--color7);
 }
 
@@ -848,7 +816,8 @@ color: rgba(117, 117, 117, 0.5);
   fill: var(--color1);
 }
 
-.policy-check:hover + .check-text .custom-check, 
+.policy-check:hover + .check-text .custom-check,
 .policy-check:focus + .check-text .custom-check {
   border: 1px solid var(--accent-color);
 }
+/*# sourceMappingURL=main.css.map */
