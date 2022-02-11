@@ -1,0 +1,63 @@
+.portfolio-img-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--proz-blue);
+  color: var(--color1);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  padding: 63px 24px;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform var(--transition);
+  .portfolio-link:hover &,
+  .portfolio-link:focus & {
+    transform: translateY(0);
+  }
+}
+
+.portfolio-item-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+  background: var(--color1);
+  position: relative;
+}
+
+.portfolio-wrapper {
+  padding: 20px 24px;
+  background: var(--color1);
+  border: 1px solid var(--color4);
+  border-top: none;
+  box-sizing: border-box;
+}
+
+.portfolio-link {
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow var(--transition);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px var(--color11), 0px 4px 4px var(--color14),
+      1px 4px 6px var(--color15);
+  }
+}
+
+.the-hero-title {
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--color2);
+}
+
+.hero-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}

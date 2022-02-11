@@ -1,0 +1,24 @@
+.specials-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+
+
+.specials-list {
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: var(--color3);
+  border-radius: 4px;
+  display: flex;
+}
+
+.specials__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: var(--color2);
+}

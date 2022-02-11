@@ -1,0 +1,28 @@
+.clients__item {
+  & + & {
+  margin-left: 30px;
+  }
+}
+
+li.clients__item {
+  flex-basis: calc(100% / 6 - 30px);
+}
+
+.clients__link {
+  height: 92px;
+  border: 1px solid;
+  display: flex;
+  border-radius: 4px;
+  border-color: currentColor;
+  justify-content: center;
+  align-items: center;
+  color: var(--color9);
+  transition: color var(--transition);
+  &:hover, &:focus {
+  color: var(--accent-color);
+}
+}
+
+.clients-icon {
+  fill: currentColor;
+}

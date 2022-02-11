@@ -1,0 +1,39 @@
+.filter-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.filter-btn {
+  border: none;
+  padding: 6px 22px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 4px;
+  color: var(--color2);
+  background-color: var(--color3);
+  transition: color var(--transition), background-color var(--transition),
+    box-shadow var(--transition);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--color1);
+    box-shadow: 0px 3px 1px var(--color12), 0px 1px 2px var(--color13),
+      0px 2px 2px var(--color11);
+  }
+}
+
+.list-filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.present-btn {
+  background-color: var(--accent-color);
+  color: var(--color1);
+  box-shadow: 0px 3px 1px var(--color12), 0px 1px 2px var(--color13),
+    0px 2px 2px var(--color11);
+}
