@@ -1,10 +1,10 @@
-.specials-item {
-  flex-basis: calc(100% / 4 - 30px);
+
+
+.specials__list {
+  --card-item: 4;
 }
 
-
-
-.specials-list {
+.specials__icon-wrapper {
   height: 120px;
   align-items: center;
   justify-content: center;

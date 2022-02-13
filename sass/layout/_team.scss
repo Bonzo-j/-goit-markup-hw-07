@@ -1,22 +1,22 @@
 
-.team-section {
+.team {
   background: var(--color3);
 }
 
 .team__item {
-  flex-basis: calc(100% / 4 - 30px);
+  --card-item: 4;
   background-color: var(--color1);
 
   box-shadow: 0px 1px 3px var(--color11), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px var(--color18);
   border-radius: 0px 0px 4px 4px;
 }
-.team-wrapper {
+.team-card__wrapper {
   padding: 30px;
 }
 
 .team-namez,
-.team-after-namez {
+.team-after-namez__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
