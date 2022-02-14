@@ -514,6 +514,8 @@ body {
 }
 
 .menu-open-btn {
+  margin-left: auto;
+  display: block;
   background-color: transparent;
   cursor: pointer;
   border: none;

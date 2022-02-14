@@ -83,6 +83,8 @@
 }
 
 .menu-open-btn {
+  margin-left: auto;
+  display: block;
   background-color: transparent;
   cursor: pointer;
   border: none;
@@ -95,6 +97,7 @@
   &:hover {
     fill: var(--accent-color);
   }
+
 }
 .mob-menu {
   position: fixed;
