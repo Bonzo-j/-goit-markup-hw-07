@@ -844,7 +844,7 @@ body {
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -862,6 +862,8 @@ body {
 
 .filter-btn {
   border: none;
+  margin-right: 8px;
+  margin-bottom: 15px;
   padding: 6px 22px;
   cursor: pointer;
   font-weight: 500;
@@ -873,8 +875,6 @@ body {
   color: var(--color2);
   background-color: var(--color3);
   transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
-  margin-right: 8px;
-  margin-bottom: 15px;
 }
 
 .filter-btn:hover, .filter-btn:focus {
@@ -983,6 +983,10 @@ body {
   flex-direction: column;
 }
 
+.footer__item {
+  margin-bottom: 9px;
+}
+
 .footer-adress {
   font-style: inherit;
   width: 231px;
@@ -1031,12 +1035,20 @@ body {
   color: var(--accent-color);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .footer-sub-wrapper {
     margin-top: 20px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-sub-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -1085,6 +1097,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color1);
+}
+
+@media screen and (min-width: 1200px) {
+  .joinus {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 1199px) {

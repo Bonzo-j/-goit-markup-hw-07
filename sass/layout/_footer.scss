@@ -10,7 +10,9 @@
 .footer-list {
   flex-direction: column;
 }
-
+.footer__item {
+  margin-bottom: 9px;
+}
 .footer-adress {
   font-style: inherit;
   width: 231px;
@@ -62,11 +64,16 @@
   }
 }
 .footer-sub-wrapper {
-  @media screen and(max-width: 1199px) {
+  @media screen and(max-width: 1200px) {
     margin-top: 20px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -103,6 +110,10 @@
 }
 
 .joinus {
+  @media screen and(min-width: 1200px) {
+    display: flex;
+  }
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
