@@ -24,15 +24,20 @@
 
 .site-list {
   display: none;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
-    margin-left: 88px;
+    // margin-left: 88px;
     margin-right: 84px;
   }
+  
 }
 
 .site-list__item:not(:last-child) {
   margin-right: 50px;
+}
+
+.site-list__item {
+  
 }
 
 .connect-list {

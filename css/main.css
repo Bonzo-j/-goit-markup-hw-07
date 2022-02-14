@@ -450,10 +450,9 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .site-list {
     display: flex;
-    margin-left: 88px;
     margin-right: 84px;
   }
 }
