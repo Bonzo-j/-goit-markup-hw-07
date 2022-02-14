@@ -489,6 +489,8 @@ body {
 
 .menu-open-btn {
   margin-left: auto;
+  background: transparent;
+  border: none;
 }
 
 .mob-menu {

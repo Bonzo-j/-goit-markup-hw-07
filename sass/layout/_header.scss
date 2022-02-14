@@ -12,6 +12,8 @@
 }
 }
 
+
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -68,6 +70,8 @@
 
 .menu-open-btn {
   margin-left: auto;
+  background: transparent;
+  border: none;
 }
 
 .mob-menu {
