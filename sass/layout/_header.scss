@@ -69,11 +69,16 @@
 }
 
 .menu-open-btn {
-  margin-left: auto;
-  background: transparent;
+  background-color: transparent;
+  cursor: pointer;
   border: none;
-}
+  padding: 0;
+  line-height: 0;
 
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
 .mob-menu {
   position: fixed;
   background-color: var(--color1);
