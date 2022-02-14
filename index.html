@@ -20,7 +20,7 @@
     <title lang="en">Web Studio</title>
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header__container">
         <nav class="site-nav">
           <a class="logo main__logo link" href="" lang="en">
@@ -55,14 +55,100 @@
           <li class="site-list__item">
             <a class="link site-list__link" href="tel:+380961111111">
               <svg class="header-icon" width="10" height="16">
-                <use href="imgs/icons.svg#icon-smartphone-1"></use>
+                <use href="imgs/icons.s vg#icon-smartphone-1"></use>
               </svg>
               +38 096 111 11 11</a
             >
           </li>
         </ul>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="header-icon" width="16" height="12">
+            <use href="imgs/icons.svg#icon-Mail-1"></use>
+          </svg>
+        </button>
       </div>
-    </header>
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-container">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-close-btn" data-menu-close>
+              <svg class="header-icon" width="16" height="12">
+                <use href="imgs/icons.svg#icon-Mail-1"></use>
+              </svg>
+            </button>
+            <ul class="list mob-menu-list">
+              <li class="mob-menu-list__item">
+                <a class="link mob-menu-list__link" href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a class="link mob-menu-list__link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a class="link mob-menu-list__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="list mob-connect">
+              <li class="site-list__item">
+                <a class="link mob-connect-tel" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="site-list__item">
+                <a
+                  class="link mob-connect-mail"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="list mob-social">
+              <li class="mob-social__item">
+                <a
+                  class="link mob-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mob-social__item">
+                <a
+                  class="link mob-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li class="mob-social__item">
+                <a
+                  class="link mob-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mob-social__item">
+                <a
+                  class="link mob-social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header> -->
     <main>
       <section class="hero-section">
         <div class="container hero__container">
@@ -134,6 +220,7 @@
           <ul class="list card-set">
             <li class="about-us__item item">
               <img
+                srcset="./imgs/cp3_3.jpg 1x, ./imgs/imgabout-us2x.jpg 2x"
                 src="./imgs/cp3_3.jpg"
                 width="370"
                 height="294"
@@ -143,6 +230,7 @@
             </li>
             <li class="about-us__item item">
               <img
+                srcset="./imgs/cp1_3.jpg 1x, ./imgs/imgabout-us22x.jpg 2x"
                 src="./imgs/cp1_3.jpg"
                 width="370"
                 height="294"
@@ -152,6 +240,7 @@
             </li>
             <li class="about-us__item item">
               <img
+                srcset="./imgs/cp2_3.jpg 1x, ./imgs/imgabout-us32x.jpg 2x"
                 src="./imgs/cp2_3.jpg"
                 width="370"
                 height="294"
@@ -513,29 +602,27 @@
             <ul class="list footer-list">
               <li class="footer__item">
                 <a
-                  class="link footer-link"
+                  class="link footer-link__map"
                   href="https://goo.gl/maps/6GSKfhrD4KB8mepB8"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer__item">
-                <a
-                  class="link footer__contacts"
-                  href="mailto:info@devstudio.com"
+              <li class="footer__mail">
+                <a class="link footer__mail" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer__item">
-                <a class="link footer__contacts" href="tel:+380961111111"
+              <li class="footer__tel">
+                <a class="link footer__tel" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-cont-item">
+        <div class="footer-social-item">
           <h3 class="joinus">Присоединяйтесь</h3>
           <ul class="social-list list">
             <li class="social__item">
@@ -592,12 +679,14 @@
           <h3 class="joinus">Подпишитесь на рассылку</h3>
 
           <form action="#" class="online-form">
-            <input
-              type="text"
-              placeholder="E-mail"
-              name="online-mail"
-              class="online-input"
-            />
+            <label class="footer-form-intfld">
+              <input
+                type="text"
+                placeholder="E-mail"
+                name="online-mail"
+                class="online-input"
+              />
+            </label>
             <button type="submit" class="main-btn sub-button">
               Подписаться<svg class="sub-icon" width="32" height="32">
                 <use href="imgs/icons.svg#icon-send"></use>
@@ -698,6 +787,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
   </body>
 </html>

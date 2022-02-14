@@ -9,7 +9,7 @@
 }
 
 .modal {
-  width: 528px;
+  width: 450px;
   min-height: 500px;
   background-color: var(--color1);
   border-radius: 4px;
@@ -19,7 +19,14 @@
   transform: translate(-50%, -50%);
   transition: transform var(--transition);
   padding: 40px;
+  @media screen and (max-width:450px) {
+    width: 90vw;
+  }
+  @media screen and (min-width:1200px) {
+    width: 528px;
+  }
 }
+
 
 .modale-close {
   height: 30px;
