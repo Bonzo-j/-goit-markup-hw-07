@@ -528,6 +528,10 @@ body {
   color: #212121;
 }
 
+.mob-menu-list__link:hover {
+  color: #2196f3;
+}
+
 .mob-menu-list__item:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -555,7 +559,9 @@ body {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #2196F3;
-  margin: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .mob-connect {
