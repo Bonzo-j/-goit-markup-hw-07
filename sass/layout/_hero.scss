@@ -3,7 +3,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../imgs/hero-bg-mob1x.jpg);
+    url(../../imgs/hero/imgmob.jpg);
 
   background-color: var(--color5);
   background-position: center;
@@ -12,30 +12,30 @@
   padding-bottom: 118px;
   text-align: center;
 
-  // @media (min-device-pixel-ratio: 2),
-  // (min-resolution: 192dpi),
-  // (min-resolution: 2dppx) {
-  //   background-image: linear-gradient(
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url(../imgs/hero-bg-mob2x.jpg);
-  // }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../imgs/hero/imgmob2.jpg);
+  }
   @include tab {
     background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../imgs/bg-hero-tab1x.jpg);
-  //   @media (min-device-pixel-ratio: 2),
-  // (min-resolution: 192dpi),
-  // (min-resolution: 2dppx) {
-  //   background-image: linear-gradient(
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url(../imgs/bg-hero-tab2x.jpg);
-  // }
+    url(../../imgs/hero/imgtab.jpg);
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../imgs/hero/imgtab2.jpg);
+  }
   }
   @include desk {
      padding-top: 200px;
@@ -45,16 +45,16 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../imgs/backgroundimage.jpg);
-  //    @media (min-device-pixel-ratio: 2),
-  // (min-resolution: 192dpi),
-  // (min-resolution: 2dppx) {
-  //   background-image: linear-gradient(
-  //     rgba(47, 48, 58, 0.4),
-  //     rgba(47, 48, 58, 0.4)
-  //   ),
-  //   url(../../imgs/hero-bg-2x.jpg);
-  // }
+    url(../../imgs/hero/Imgdesk.jpg);
+     @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../imgs/hero/Imgdesk2.jpg);
+  }
   }
 }
   
