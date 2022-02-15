@@ -385,6 +385,13 @@ body {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 1200px) {
+  .main__logo {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 .studio-white {
   color: var(--color1);
 }
@@ -461,14 +468,41 @@ body {
   margin-right: 50px;
 }
 
-.connect-list {
-  display: block;
+@media screen and (min-width: 768px) {
+  .site-contc__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .connect-list {
+    display: block;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .connect-list {
     display: flex;
     margin-left: auto;
+  }
+}
+
+.conn-link {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .conn-link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color var(--transition);
+  }
+  .conn-link:hover, .conn-link:focus {
+    color: var(--accent-color);
   }
 }
 

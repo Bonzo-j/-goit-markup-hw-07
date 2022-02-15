@@ -1,5 +1,8 @@
 .header .main__logo {
-  margin-right: 93px;
+  
+    margin-right: 93px;
+  
+  
 }
 .main__logo {
   font-family: Raleway;
@@ -8,6 +11,11 @@
   line-height: 1.19;
 
   color: var(--accent-color);
+
+  @media screen and(max-width: 1200px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 .studio-white {
