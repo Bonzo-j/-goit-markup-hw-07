@@ -23,6 +23,9 @@
 }
 
 .portfolio-item {
+  @media screen and (max-width: 1200px) {
+    flex-basis: calc(100% / 2 - 30px);
+  }
   flex-basis: calc(100% / 3 - 30px);
   background: var(--color1);
   position: relative;
@@ -34,6 +37,7 @@
   border: 1px solid var(--color4);
   border-top: none;
   box-sizing: border-box;
+  height: 146px;
 }
 
 .portfolio-link {

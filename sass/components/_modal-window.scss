@@ -151,15 +151,22 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .check-text {
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 24px;
-  padding-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--color7);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .checkbox-wrap {
@@ -167,8 +174,17 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .terms-use {
-  margin-left: 5px;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
+
 }
 
 .check-text .custom-check {
