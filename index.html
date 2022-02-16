@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title lang="en">Web Studio</title>
   </head>
   <body>
@@ -68,84 +69,79 @@
         </button>
       </div>
       <div class="mob-menu is-hidden" data-menu>
-        <div class="mob-container">
-          <div class="mob-menu-top">
-            <button type="button" class="menu-close-btn" data-menu-close>
-              <svg class="header-menu-close" width="40" height="40">
-                <use href="imgs/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-            <ul class="list mob-menu-list">
-              <li class="mob-menu-list__item">
-                <a class="link current mob-menu-list__link" href="./index.html"
-                  >Студия</a
-                >
-              </li>
-              <li class="mob-menu-list__item">
-                <a class="link mob-menu-list__link" href="./portfolio.html"
-                  >Портфолио</a
-                >
-              </li>
-              <li class="mob-menu-list__item">
-                <a class="link mob-menu-list__link" href="">Контакты</a>
-              </li>
-            </ul>
-          </div>
-          <div class="mob-menu-bottom">
-            <ul class="list mob-connect">
-              <li class="site-list__item">
-                <a class="link mob-connect-tel" href="tel:+380961111111">
-                  +38 096 111 11 11</a
-                >
-              </li>
-              <li class="site-list__item">
-                <a
-                  class="link mob-connect-mail"
-                  href="mailto:info@devstudio.com"
-                >
-                  info@devstudio.com</a
-                >
-              </li>
-            </ul>
-            <ul class="list mob-social">
-              <li class="mob-social__item">
-                <a
-                  class="link mob-social-link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Instagram</a
-                >
-              </li>
-              <li class="mob-social__item">
-                <a
-                  class="link mob-social-link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Twitter</a
-                >
-              </li>
-              <li class="mob-social__item">
-                <a
-                  class="link mob-social-link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Facebook</a
-                >
-              </li>
-              <li class="mob-social__item">
-                <a
-                  class="link mob-social-link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Linkedin</a
-                >
-              </li>
-            </ul>
-          </div>
+        <div class="mob-menu-top">
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="header-menu-close" width="40" height="40">
+              <use href="imgs/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list mob-menu-list">
+            <li class="mob-menu-list__item">
+              <a class="link current mob-menu-list__link" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="link mob-menu-list__link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="link mob-menu-list__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-bottom">
+          <ul class="list mob-connect">
+            <li class="site-list__item">
+              <a class="link mob-connect-tel" href="tel:+380961111111">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="site-list__item">
+              <a class="link mob-connect-mail" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="list mob-social">
+            <li class="mob-social__item">
+              <a
+                class="link mob-social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+            <li class="mob-social__item">
+              <a
+                class="link mob-social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </li>
+            <li class="mob-social__item">
+              <a
+                class="link mob-social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li class="mob-social__item">
+              <a
+                class="link mob-social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -597,9 +593,9 @@
       <div class="container footer-container">
         <div class="footerwrap">
           <div class="footer-cont-item">
-            <a class="main__logo link" href=""
-              >Web<span class="studio-white">Studio</span></a
-            >
+            <a class="link logo main__logo" href="" lang="en">
+              Web<span class="studio-white">Studio</span>
+            </a>
 
             <address class="footer-adress">
               <ul class="list footer-list">
@@ -625,7 +621,7 @@
               </ul>
             </address>
           </div>
-          <div class="footer-social-item">
+          <div class="footer-cont-item">
             <h3 class="joinus">Присоединяйтесь</h3>
             <ul class="social-list list">
               <li class="social__item">
@@ -682,24 +678,24 @@
 
         <!-- <div class="footer-form"> -->
 
-        <form action="#" class="online-form">
+        <div class="footer-cont-item">
           <h3 class="joinus">Подпишитесь на рассылку</h3>
-          <div class="footer-sub-wrapper">
-            <label class="footer-form-intfld">
-              <input
-                type="text"
-                placeholder="E-mail"
-                name="online-mail"
-                class="online-input"
-              />
-            </label>
+          <form class="footer-sub-wrapper">
+            <input
+              type="text"
+              placeholder="E-mail"
+              name="online-mail"
+              class="online-input"
+            />
+
             <button type="submit" class="main-btn sub-button">
               Подписаться<svg class="sub-icon" width="32" height="32">
                 <use href="imgs/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
+
         <!-- </div> -->
       </div>
     </footer>
@@ -783,8 +779,9 @@
               <span class="custom-check"
                 ><svg class="policy-icon" height="16" width="15">
                   <use href="./imgs/icons.svg#icon-check-th"></use></svg></span
-              >Соглашаюсь с рассылкой и принимаю<a href="" class="terms-use"
-                >Условия договора</a
+              ><span
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="" class="terms-use">Условия договора</a></span
               ></label
             >
           </div>
@@ -796,6 +793,5 @@
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
-    <link rel="stylesheet" href="./css/main.min.css" />
   </body>
 </html>

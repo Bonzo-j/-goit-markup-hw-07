@@ -6,6 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  margin-left: -8px;
+  margin-top: -15px;
 
   @media screen and(min-width: 768px) {
     justify-content: center;
@@ -14,8 +16,8 @@
 
 .filter-btn {
   border: none; 
-  margin-right: 8px;
-  margin-bottom: 15px;
+  // margin-right: 8px;
+  // margin-bottom: 15px;
   padding: 6px 22px;
   cursor: pointer;
   font-weight: 500;
@@ -51,8 +53,9 @@
   }
 }
 
-.list-filter-item:not(:last-child) {
-  margin-right: 8px;
+.list-filter-item {
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .present-btn {

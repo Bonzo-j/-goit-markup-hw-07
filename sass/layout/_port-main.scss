@@ -23,8 +23,11 @@
 }
 
 .portfolio-item {
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199px) {
     flex-basis: calc(100% / 2 - 30px);
+  }
+  @media screen and (max-width: 767px) {
+    flex-basis: calc(100% / 1 - 30px);
   }
   flex-basis: calc(100% / 3 - 30px);
   background: var(--color1);
@@ -32,6 +35,7 @@
 }
 
 .portfolio-wrapper {
+  flex-grow: 1;
   padding: 20px 24px;
   background: var(--color1);
   border: 1px solid var(--color4);
@@ -41,8 +45,15 @@
 }
 
 .portfolio-link {
+  @media screen and (min-width:768px) {
+    --card-item: 2;
+  }
+  @media screen and (min-width:1200px) {
+    --card-item: 3;
+  }
   display: flex;
   flex-direction: column;
+  height: 100%;
   transition: box-shadow var(--transition);
   &:hover,
   &:focus {

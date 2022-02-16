@@ -9,7 +9,8 @@
 }
 
 .modal {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   min-height: 500px;
   background-color: var(--color1);
   border-radius: 4px;
@@ -19,9 +20,9 @@
   transform: translate(-50%, -50%);
   transition: transform var(--transition);
   padding: 40px;
-  @media screen and (max-width:450px) {
-    width: 90vw;
-  }
+  // @media screen and (max-width:450px) {
+  //   width: 90vw;
+  // }
   @media screen and (min-width:1200px) {
     width: 528px;
   }
@@ -160,7 +161,7 @@ color: rgba(117, 117, 117, 0.5);
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1;
   letter-spacing: 0.03em;
   color: var(--color7);
 
